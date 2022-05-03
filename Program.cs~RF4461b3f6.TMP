@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Data;
+
+namespace MonitorCSV
+{
+    class MainProgram
+    {
+        static void Main(string[] args)
+        {
+            Utility.CSV csv= new Utility.CSV();
+            MonitorCSV.Model model;
+            List<MonitorCSV.Model> lstmodel=new List<MonitorCSV.Model>();
+            string filename = Path.GetFullPath(Constant.Manifest);
+            string[,] values= csv.LoadCSV(filename);
+            for (int i = 1; i <= values.GetUpperBound(0) - 1; i++)
+            {
+                model = new MonitorCSV.Model() { OrderNo = values[i, 0];
+                ConsignmentNo = values[i, 1];
+                ParcelCode = values[i, 2];
+                ConsigneeName = values[i, 3];
+                Address1 = values[i, 4];
+                Address2 = values[i, 5];
+                City = values[i, 6];
+                State = values[i, 7];
+                CountryCode = values[i, 8];
+                ItemQuantity = Convert.ToInt32(values[i, 9]);
+                ItemValue = Convert.ToDouble(values[i, 10]);
+                ItemWeight = Convert.ToDouble(values[i, 11]);
+                ItemDescription = values[i, 12];
+                ItemCurrency = values[i, 13];
+            }                
+                    
+                    lstmodel.Add(model);
+            }
+            Console.WriteLine(filename);
+            Console.ReadLine();
+        }
+    }
+}
