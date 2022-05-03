@@ -1,0 +1,14 @@
+E:\projects\MonitorCSV\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\projects\MonitorCSV\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\projects\MonitorCSV\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\projects\MonitorCSV\ConsoleApp1\obj\Debug\MonitorCSV.csprojAssemblyReference.cache
+E:\projects\MonitorCSV\ConsoleApp1\obj\Debug\MonitorCSV.csproj.CoreCompileInputs.cache
+E:\projects\MonitorCSV\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\projects\MonitorCSV\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+E:\projects\MonitorCSV\MonitorCSV\bin\Debug\ConsoleApp1.exe.config
+E:\projects\MonitorCSV\MonitorCSV\bin\Debug\ConsoleApp1.exe
+E:\projects\MonitorCSV\MonitorCSV\bin\Debug\ConsoleApp1.pdb
+E:\projects\MonitorCSV\MonitorCSV\obj\Debug\MonitorCSV.csprojAssemblyReference.cache
+E:\projects\MonitorCSV\MonitorCSV\obj\Debug\MonitorCSV.csproj.CoreCompileInputs.cache
+E:\projects\MonitorCSV\MonitorCSV\obj\Debug\ConsoleApp1.exe
+E:\projects\MonitorCSV\MonitorCSV\obj\Debug\ConsoleApp1.pdb
